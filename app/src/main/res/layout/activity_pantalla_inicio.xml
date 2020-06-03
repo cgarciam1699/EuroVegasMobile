@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tapete_cartas"
+    tools:context="com.example.EurovegasMobile.pantalla_inicio">
+
+
+    <Button
+
+        android:id="@+id/bt_acceder_ruleta"
+        android:layout_width="229dp"
+        android:layout_height="134dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/icono_pulsado_ruleta"
+        android:onClick="click_acceder_ruleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+    <ImageButton
+        android:id="@+id/bt_acceder_blackjack"
+        android:layout_width="229dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="152dp"
+        android:onClick="click_acceder_blackjack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_pulsado_blackjack" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="225dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/icono_principal_carrera_caballos"
+        android:onClick="click_acceder_carreras_caballos"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/bt_acceder_pronostico_deportivo"
+        android:layout_width="223dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="420dp"
+        android:onClick="click_acceder_pronostico_deportivo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bt_imagen_pronosticos" />
+
+    <ImageButton
+        android:id="@+id/bt_acceder_maquina_tragamonedas"
+        android:layout_width="229dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="288dp"
+        android:onClick="click_acceder_maquina_tragamonedas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_pulsado_slot_frutas" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

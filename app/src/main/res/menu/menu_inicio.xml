@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/menu_mas"
+        android:id="@+id/bt_mas"
+        android:title="Mas"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/bt_compartir"
+                android:icon="@drawable/icono_localizacion"
+                android:title="Localizanos">
+            </item>
+            <item
+                android:id="@+id/bt_encuesta"
+                android:icon="@drawable/estrella"
+                android:title="Encuesta app">
+            </item>
+            <item
+                android:id="@+id/bt_ver_pronostico"
+                android:icon="@drawable/pronosticos_icono"
+                android:title="Consultar pronostico">
+            </item>
+            <item
+                android:id="@+id/bt_politicas"
+                android:icon="@drawable/info_politicas"
+                android:title="Politicas y privacidad">
+            </item>
+            <item
+                android:id="@+id/bt_cerrar_sesion"
+                android:icon="@drawable/salir_app_icono"
+                android:title="Cerrar sesion">
+            </item>
+        </menu>
+
+    </item>
+</menu>

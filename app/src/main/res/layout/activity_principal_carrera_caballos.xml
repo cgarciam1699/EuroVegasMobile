@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cesped"
+    tools:context=".Ruleta">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="333dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="76dp"
+        android:text="Se permiten hacer 3 apuestas distintas, habrá un solo ganador al final de la carrera. Mucha suerte."
+        android:textColor="#FFFDFD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="375dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:text="Carrera de caballos"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonInicio2"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="68dp"
+        android:alpha="0.8"
+        android:text="¡A JUGAR!"
+        android:textColor="#030303"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="287dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/icono_carrera_caballos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

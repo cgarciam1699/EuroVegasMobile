@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plantilla_fondo_slot"
+    tools:context="com.example.EurovegasMobile.maquina_tragamonedas">
+
+    <ImageView
+        android:id="@+id/ivFruta9"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta6"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta4"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta1"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta6"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta3"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta8"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/ivFruta9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ivFruta7"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta5"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta1"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta2"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/ivFruta3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ivFruta1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta3"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="28dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta7"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta4"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <ImageView
+        android:id="@+id/ivFruta5"
+        android:layout_width="106dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/ivFruta6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ivFruta4"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta2"
+        app:srcCompat="@drawable/simbolocereza" />
+
+    <Button
+        android:id="@+id/btTirar"
+        android:layout_width="128dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/btgirar"
+        android:onClick="tirar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFruta8" />
+
+    <Button
+        android:id="@+id/bt_volver_inicio"
+        android:layout_width="63dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/icono_regresar"
+        android:onClick="volver_Inicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvcontador"
+        android:layout_width="109dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="704dp"
+        android:text="1000"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="109dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="704dp"
+        android:text="Credito:"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

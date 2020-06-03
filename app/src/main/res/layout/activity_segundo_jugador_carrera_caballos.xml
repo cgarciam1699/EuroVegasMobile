@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cesped"
+    tools:context=".segundo_jugador_carrera_caballos">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="307dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="SEGUNDA APUESTA"
+        android:textColor="#FCFCFC"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagenCaballosP2"
+        android:layout_width="306dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/icono_carrera_caballos" />
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="352dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenCaballosP2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt2Caballo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="eleccionCaballo2"
+                android:text="Apuesta 1"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt2Caballo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="eleccionCaballo2"
+                android:text="Apuesta 2"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt2Caballo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="eleccionCaballo2"
+                android:text="Apuesta 3"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/cantidadApostada2"
+        android:layout_width="131dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
+
+    <TableLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="262dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cantidadApostada2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btDeCinco2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="apuestaJugador2"
+                android:text="10"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btDeDiez2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="apuestaJugador2"
+                android:text="100"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btDeVeinte2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="apuestaJugador2"
+                android:text="1000"
+                android:textSize="24sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btSiguiente2"
+        android:layout_width="165dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:onClick="avance1"
+        android:text="SIGUIENTE APUESTA"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ruleta1</string>
+    <string name="tablaRuleta">Mesa</string>
+    <string name="informacion_tabla_ruleta">HAGAN SUS APUESTAS</string>
+</resources>

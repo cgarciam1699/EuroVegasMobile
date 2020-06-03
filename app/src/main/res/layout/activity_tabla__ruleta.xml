@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mesa_ruleta_background"
+    android:visibility="visible"
+    tools:context="com.example.EurovegasMobile.Tabla_Ruleta">
+
+    <ImageButton
+        android:id="@+id/bt_regresar_menu_principal"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="649dp"
+        android:layout_marginEnd="298dp"
+        android:onClick="clickbt_regresar_menu"
+        app:srcCompat="@drawable/icono_regresar" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt1"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt2"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt3"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt4"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt5"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt6"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt7"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt8"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt9"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt10"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt11"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt11"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt12"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt13"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt13"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt14"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt14"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt15"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt15"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt16"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt16"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt17"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt17"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt18"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt18"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt19"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt19"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt20"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt21"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt21"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt22"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt22"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt23"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt23"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt24"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt24"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt25"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt25"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt26"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt26"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt27"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt27"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt28"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt28"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt29"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt29"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt30"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt30"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt31"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt31"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt32"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt32"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt33"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt33"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt34"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt34"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt35"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt35"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/bt36"
+                android:layout_width="50.66dp"
+                android:layout_height="43.75dp"
+                android:background="@android:color/transparent"
+                android:onClick="clickbt36"
+                android:visibility="visible" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt0"
+        android:layout_width="50.66dp"
+        android:layout_height="43.75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="4dp"
+        android:background="@android:color/transparent"
+        android:onClick="clickbt0"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
+
