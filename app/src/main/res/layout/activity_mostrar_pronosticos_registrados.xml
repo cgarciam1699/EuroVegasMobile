@@ -90,7 +90,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="164dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="92dp"
         android:background="@drawable/icono_regresar"
         android:backgroundTint="@color/colorPrimary"
         android:onClick="ir_menu" />
