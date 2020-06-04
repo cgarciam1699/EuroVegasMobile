@@ -22,6 +22,7 @@ Generamos el archivo EuroVegas.apk
 Lo pasamos al almacenamiento interno del smartphone.
 Buscamos el archivo EuroVegas.apk en el gestor de archivos.
 Instalamos.
+En otro caso existe otra carpeta llamada Instalador_APK la cual contiene el instalador de eurovegasmobile.
 
 Autor ✒️
 Carlos García Martín
