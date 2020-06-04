@@ -1,5 +1,7 @@
 # eurovegasmobile
-Proyecto de casino móvil desarrollado en AndroidStudio a partir del lenguaje de programación (Java). Contiene ruleta, maquina tragamonedas, blackjack, apuestas deportivas y carreras de caballos (hilos). Tambien contiene un menú desplegable en la parte superior derecha con las opciones de:
+Proyecto de casino móvil desarrollado en AndroidStudio a partir del lenguaje de programación (Java). Contiene ruleta, maquina tragamonedas, blackjack, apuestas deportivas y carreras de caballos (hilos). El repositorio contiene 2 carpetas PHP (en la que encontramos todos los archivos php creados para pasar los datos entre la bbdd y la aplicación) y Documentación (Memoria del proyecto explicada completamente en formato PDF y DOC) 
+
+Tambien contiene un menú desplegable en la parte superior derecha con las opciones de:
 
 Localizanos. (Google Maps)
 Encuesta app.
