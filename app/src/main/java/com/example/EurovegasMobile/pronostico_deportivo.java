@@ -144,7 +144,7 @@ public class pronostico_deportivo extends AppCompatActivity implements AdapterVi
                         Intent intent2 = new Intent(getApplicationContext(), pantalla_inicio.class);
 
                         intent2.putExtra("str_correo", str_escribe_correo);
-                        startActivity(new Intent(getApplicationContext(), Ruleta.class));
+                        startActivity(new Intent(getApplicationContext(), pantalla_inicio.class));
                         Toast.makeText(pronostico_deportivo.this, response, Toast.LENGTH_SHORT).show();
                     }else{
                         Toast.makeText(pronostico_deportivo.this, response, Toast.LENGTH_SHORT).show();
